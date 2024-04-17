@@ -39,8 +39,8 @@ public class SecurityConfiguration {
                 .build();
         UserDetails adminUser = User.builder()
                 .username("thiraj")
-                .password("$2a$12$JHnI7FGeyucXWKb3X1Lt1Ox6s2HukNothotjlRgyb011dNJWX0XZS")
-                .roles("ADMIN")
+                .password("$2a$12$Rj7pQkv.P3RSip36ti6NR.yV82jEDoOlAx7ETtMiwEqrs.b3OHFX.")
+                .roles("ADMIN","USER")
                 .build();
         return new InMemoryUserDetailsManager(adminUser,normalUser);
     }
