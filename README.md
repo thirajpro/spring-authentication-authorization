@@ -22,8 +22,6 @@ Getting Started
 4. Test authentication and authorization.
 5. Customize security configurations as needed.
 
-Contributing
 Contributions are welcome! Follow the guidelines in CONTRIBUTING.md.
 
-License
 This project is licensed under the MIT License.
